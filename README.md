@@ -49,20 +49,6 @@ This project simulates a small e-commerce environment where:
 
 ---
 
-## 📂 Folder Structure
-
-src/
-├── model/ # All product-related classes and interfaces
-│ ├── Product.java
-│ ├── Cheese.java, Biscuits.java, TV.java, ScratchCard.java
-│ ├── ExpirableProduct.java
-│ ├── ShippableProduct.java
-│ ├── Cart.java # Handles cart logic
-│ └── Customer.java # Represents the customer
-├── service/ # Business logic (checkout and shipping)
-│ ├── CheckoutService.java
-│ └── ShippingService.java
-└── Main.java # Test and demo
 
 ## 🧠 Technologies Used
 
