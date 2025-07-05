@@ -17,9 +17,15 @@ public class Customer {
         return balance;
     }
 
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
+
+    public boolean canAfford(double amount) {
+        return balance >= amount;
+    }
+
     public void deductBalance(double amount) {
-        if (amount <= balance) {
-            balance -= amount;
-        }
+        balance -= amount;
     }
 }

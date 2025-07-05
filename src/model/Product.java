@@ -1,6 +1,6 @@
 package model;
 
-public abstract class Product {
+public class Product {
     protected String name;
     protected double price;
     protected int quantity;
@@ -31,9 +31,7 @@ public abstract class Product {
         return quantity >= requestedQuantity;
     }
 
-    public void reduceQuantity(int amount) {
-        if (amount <= quantity) {
-            quantity -= amount;
-        }
+    public boolean isExpired() {
+        return false;
     }
 }
