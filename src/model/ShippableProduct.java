@@ -14,4 +14,5 @@ public class ShippableProduct extends Product implements Shippable {
     public double getWeight() {
         return weight;
     }
+
 }

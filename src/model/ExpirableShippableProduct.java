@@ -25,4 +25,5 @@ public class ExpirableShippableProduct extends Product implements Shippable {
     public void setExpired(boolean expired) {
         this.expired = expired;
     }
+
 }

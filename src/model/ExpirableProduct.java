@@ -16,4 +16,5 @@ public class ExpirableProduct extends Product{
     public void setExpired(boolean expired) {
         this.expired = expired;
     }
+
 }

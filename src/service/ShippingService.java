@@ -46,4 +46,5 @@ public class ShippingService {
         }
         return totalWeight * SHIPPING_RATE;
     }
+
 }

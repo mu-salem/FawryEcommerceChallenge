@@ -28,4 +28,5 @@ public class Customer {
     public void deductBalance(double amount) {
         balance -= amount;
     }
+
 }

@@ -19,7 +19,7 @@ public class Cart {
         }
 
         if (!product.isInStock(quantity)) {
-            System.out.println("Error: Not enough " + product.getName() + " in stock");
+            System.out.println("Error: Not enough " + product.getName() + " in stock!");
             return;
         }
 
